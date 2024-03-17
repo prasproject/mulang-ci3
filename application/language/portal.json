@@ -1,0 +1,30 @@
+{
+  "menu_product": {
+    "en": "Product",
+    "id": "Produk"
+   },
+   "menu_service": {
+    "en": "Service",
+    "id": "Layanan"
+   },
+   "menu_business_solution": {
+    "en": "Business Solution",
+    "id": "Solusi Bisnis"
+   },
+   "menu_price": {
+    "en": "Price",
+    "id": "Harga"
+   },
+   "menu_support": {
+    "en": "Support",
+    "id": "Mendukung"
+   },
+   "welcome": {
+    "en": "Welcome to",
+    "id": "Selamat Datang di"
+   },
+   "to_promo": {
+    "en": "To Promo",
+    "id": "Ke Promo"
+   }
+}
