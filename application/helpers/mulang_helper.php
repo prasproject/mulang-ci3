@@ -35,7 +35,7 @@ if (!function_exists('load_mulang')) {
             }
             return $language_messages;
         } else {
-            return array(); // Return empty array if file doesn't exist
+            return array(); 
         }
     }
 }
