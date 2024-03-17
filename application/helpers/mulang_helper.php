@@ -6,12 +6,15 @@ if (!function_exists('mulang')) {
     {
         $CI =& get_instance();
 
-        if ($language == null) {
-            $language = $CI->session->userdata('language') ? $CI->session->userdata('language') : 'id';
+        if ($language == null || ($language != 'id' && $language != 'en')) {
+            if($CI->session->userdata('language') == 'id' || $CI->session->userdata('language') == 'en'){
+                $language = $CI->session->userdata('language') ? $CI->session->userdata('language') : 'id';
+            }else{
+                $language = 'id';
+            }
         }
 
         $CI->session->set_userdata('language', $language);
-
         return $language;
     }
 }
