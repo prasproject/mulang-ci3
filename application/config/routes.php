@@ -53,9 +53,9 @@ $route['default_controller'] = 'welcome';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
-// id
+// id & en Promo
 $route['(:any)/promo'] = 'promo/index/$1';
 $route['promo'] = 'promo/index';
 
-// id & en
+// id & en Home
 $route['(:any)'] = 'welcome/index/$1';
